@@ -6,7 +6,7 @@ import pickle
 st.header('Insurance Premium Prediction App')
 st.write('Created by : Durga Nandhini M')
 
-with open('lgb_model.pkl', 'rb') as file:
+with open('lgb_model.pkl (1)', 'rb') as file:
     loaded_model = pickle.load(file)
 
 # Input fields
